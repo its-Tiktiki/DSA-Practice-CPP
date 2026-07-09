@@ -9,7 +9,7 @@ int main(){
     int i = 0;
     int j = size - 1;
 
-    while( i <= j){
+    while( i < j){
         swap(arr[i], arr[j]);
         i++;
         j--;
