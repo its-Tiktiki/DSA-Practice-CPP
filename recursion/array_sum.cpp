@@ -7,6 +7,7 @@ int sum(int n, int a[]){
 
 int main(){
     int n;
+    cout << "Enter number: ";
     cin >> n;
     int a[n];
     for(int i = 0; i < n; ++i){
