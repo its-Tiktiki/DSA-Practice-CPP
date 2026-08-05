@@ -17,7 +17,7 @@ int main() {
 		long long total_ct = 0;
 		for(int i = 0; i < K; ++i){
 			auto last_it = (--bags.end());
-			int candy_ct = *last_it;
+			long long candy_ct = *last_it;
 			total_ct += candy_ct;
 			bags.erase(last_it);
 			bags.insert(candy_ct / 2);
