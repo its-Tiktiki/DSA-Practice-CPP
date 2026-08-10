@@ -23,7 +23,7 @@ int main() {
 			bags.insert(candy_ct / 2);
 		}
 
-		cout << total_ct << endl;
+		cout << "Total count: " << total_ct << endl;
 
 	}
 }
