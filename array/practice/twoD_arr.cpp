@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     int rows, cols;
-    cout << "Enter rows number and columns number: ";
+    cout << "Enter rows and columns number: ";
     cin >> rows >> cols;
     int arr[rows][cols];
 
