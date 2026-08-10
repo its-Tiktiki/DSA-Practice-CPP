@@ -2,6 +2,7 @@
 using namespace std;
 int main(){
     int binary, power = 1, ans = 0;
+    cout << "Enter binary number: ";
     cin >> binary;
 
     while(binary > 0){
