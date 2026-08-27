@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
+
     map<pair<int, int>, int> m;
     pair<int, int> p1, p2;
     p1 = {1, 2};
@@ -31,8 +32,10 @@ int main(){
     for(auto pr : m3){
         auto &full_name = pr.first;
         auto &list = pr.second;
+
         cout << full_name.first << " " << full_name.second << endl;
         cout << "size: " << list.size() << endl;
+        
         for(auto &element : list){
             cout << element << " ";
         }
