@@ -10,7 +10,7 @@ int main(){
     }
 
     // sort(starting index, ending index) 
-    sort(a+2, a+n);
+    sort(a+2, a+n); // a is an index itself
     for(int i = 0; i < n; ++i){
         cout << a[i] << " ";
     }
