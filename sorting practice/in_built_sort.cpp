@@ -9,6 +9,7 @@ int main(){
         cin >> a[i];
     }
 
+    // sort(starting index, ending index) 
     sort(a+2, a+n);
     for(int i = 0; i < n; ++i){
         cout << a[i] << " ";
