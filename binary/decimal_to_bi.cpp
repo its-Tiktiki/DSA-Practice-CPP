@@ -2,7 +2,9 @@
 using namespace std;
 
 int main() {
+
     int decimal;
+    cout << "Enter decimal number: ";
     cin >> decimal;
 
     int power = 1;
