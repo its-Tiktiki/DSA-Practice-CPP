@@ -18,5 +18,5 @@ int main() {
         power *= 10;
     }
 
-    cout << "ans = " << ans << endl;
+    cout << "Ans = " << ans << endl;
 }
