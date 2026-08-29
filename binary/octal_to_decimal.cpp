@@ -6,8 +6,6 @@ int main(){
     cin >> n;
 
     string ans;
-
     
-
     return 0;
 }
