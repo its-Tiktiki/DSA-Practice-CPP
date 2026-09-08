@@ -4,6 +4,12 @@ int main(){
 
     cout << "This is a test file";
     cout << "This is another file";
+    cout << "This is another line";
+    cout << "This is another line";
+    cout << "This is another line";
+    cout << "This is another line";
+    cout << "This is another line";
+    cout << "This is another line";
 
     return 0;
 }
