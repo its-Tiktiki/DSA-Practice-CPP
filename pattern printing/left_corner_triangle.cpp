@@ -1,8 +1,9 @@
 #include <iostream>
 using namespace std;
 int main(){
+
     int nums;
-    cout << "enter the number of rows: ";
+    cout << "Enter the number of row: ";
     cin >> nums;
 
     string star = "*";
@@ -10,7 +11,6 @@ int main(){
         cout << star;
         star += " *";
         cout << endl;
-
     }
 
     return 0;
