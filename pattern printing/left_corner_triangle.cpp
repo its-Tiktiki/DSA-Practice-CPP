@@ -3,7 +3,7 @@ using namespace std;
 int main(){
 
     int nums;
-    cout << "Enter the number of rows: ";
+    cout << "enter the number of rows: ";
     cin >> nums;
 
     string star = "*";
