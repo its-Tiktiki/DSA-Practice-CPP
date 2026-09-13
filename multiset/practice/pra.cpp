@@ -13,7 +13,6 @@ int main(){
     s.insert("abc");
     s.insert("sdf");
     s.insert("ghj");
-    s.insert("abc");
 
     // only erase the value that the iterator points
     // mainly the first value of the given string
