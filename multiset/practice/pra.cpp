@@ -22,7 +22,7 @@ int main(){
         s.erase(it);
     }
 
-    // erases all the string that matches the given str
+    // erases all the string that matches the given string 
     s.erase("sdf");
     print(s);
 
