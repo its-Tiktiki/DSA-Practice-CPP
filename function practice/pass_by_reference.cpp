@@ -8,7 +8,7 @@ void change(){
 }
 
 int main(){
-    // int a = 7; //value wont change bcz its a local variable
+    // int a = 7; // value wont change bcz its a local variable
     cout << "Before change a = " << A << endl;
     change();
     cout << "After change a = " << A << endl;
